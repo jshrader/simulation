@@ -1,4 +1,4 @@
-function [beta_hat, se, t_stat, w_stat, vcov, sigma2, u_hat] = ols(y, X, const, robust)
+function [beta_hat, se, t_stat, w_stat, vcov, sigma2, u_hat] = ols_old(y, X, const, robust)
 % OLS function
 % const = 1 or 0. If const = 1, then intercept is included
 %{
